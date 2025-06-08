@@ -1,0 +1,5 @@
+(executable
+ (public_name mainA)
+ (name main)
+ (modules types db main logic)
+ (libraries main str))
